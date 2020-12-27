@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="ZIYA.css" media="screen" />
+<style> 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border:1px solid white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+
+.container {
+  position: relative;
+  width: 40%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+</style>
+</head>
+<body bgcolor=" #E5E7E9">
+    <div id="wrap">
+       <center><h1>OPEN BOX BOOK STORE</h1></center><div p>
+</div>
+
+
+
+<ul>
+  <li><a class="active" href="orthodoxFORTEST.html">Home</a></li>
+  <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">CATEGORY</a>
+      <div class="dropdown-content">
+      <CENTER><h7></h7></CENTER>  <!-- FOR DROPDOWN. -->                                                                    
+     <table>
+    <tr>
+      <th><a href="novel.html">NOVEL</a></th>
+      <th><a href="eng.html">ENGINEERING</a></th>
+  </TABLE>
+  <li><a href="author.html">author</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+<center><font size="15" face="comic sans MS"><h2>Authors</h2></font></center>
+
+<center><div class="container">
+  <img src="cb.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="ch.html">Chetan Bhagat</a></div>
+  </div>
+
+  </div>
+</div></center>
+<center><div class="container">
+<img src="ch.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="char.html">Charles Dickens</a></div>
+  </div>
+</div></center>
+<center><div class="container">
+<img src="w.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="will.html">William Shakespeare</a></div>
+  </div>
+</div></center>
+<center><div class="container">
+<img src="b.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="ba.html">Badal Sarkar</a></div>
+  </div>
+</div></center>
+<center><div class="container">
+<img src="p.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href="mun.html">Premchand</a></div>
+  </div>
+
+
+</div></center>
+
+
+<footer>
+<h1>COPYRIGHT@OPENBOXBOOKSTORE</h1>
+
+
+
+</footer>
+
+</body>
+</html>

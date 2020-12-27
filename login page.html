@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <tittle></title>
+<link rel="stylesheet" type="text/css" href="ziya1.css" media="screen" />
+  <center> <h1>OPEN BOX BOOK STORE</h1></center>
+
+</head>
+<body background="lzWCKH.jpg">
+ <ul id="nav">
+      <li><a href="orthodoxFORTEST.html">HOME</a></li>
+      <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">CATEGORY</a>
+    <div class="dropdown-content">
+    <CENTER><h7>CATEGORY</h7></CENTER>  <!-- FOR DROPDOWN. -->                                                                    
+   <table>
+   <h1>openbox</h1>
+</table>
+    </div>
+  </li>
+      <li><a href="login page.html">LOGIN </a></li>
+      <li><a href="about.html">ABOUT</a></li>
+
+   </ul>
+  <div id="content">
+      
+   </div>
+</div>
+<div class="aa">
+<h2>LOGIN</h2>
+
+
+   <form name="login">
+Username<input type="text" name="userid"/>
+Password<input type="password" name="pswrd"/>
+<center><input type="button" onclick="check(this.form)" value="LOGIN"/>
+<input type="reset" value="RESET"/>
+</center>
+</form>
+   
+   
+</form>
+</div>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd")
+  {
+    window.open('orthodoxFORTEST.html')/*opens the target page while Id & password matches*/
+
+  }
+ else
+ {
+   alert("Error Password or Username PLEASE BUY THE USERNAME OR PASSWORD")/*displays error message*/
+   
+  }
+}
+</script>
+<footer>
+<center><h1>COPYRIGHT@OPENBOXBOOKSTORE</h1></center>
+
+
+
+</footer>
+</body>
+</html>
